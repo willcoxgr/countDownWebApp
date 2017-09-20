@@ -17,7 +17,7 @@ var jQuery_1_11_1 = jQuery_1_11_1 || $.noConflict();
 
 		this.init(opts);
 	}
-	SSCountdown.prototype = {
+	GWCountdown.prototype = {
 		init: function (opts) {
 			var self = this;
 
