@@ -7,6 +7,11 @@
     "dest": "./"
   },
 
+  "subscribe": {
+    "src": "subscribe",
+    "dest": "./subscribe"
+  },
+
   "static": {
     "src": "static",
     "dest": "./"
