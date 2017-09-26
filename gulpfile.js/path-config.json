@@ -9,7 +9,7 @@
 
   "subscribe": {
     "src": "subscribe",
-    "dest": "./subscribe"
+    "dest": "subscribe"
   },
 
   "static": {
