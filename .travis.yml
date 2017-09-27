@@ -7,6 +7,10 @@ env:
 node_js:
 - stable
 
+script:
+- npm run build
+- npm test
+
 after_success:
   - wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
   - git remote add heroku git@heroku.com:countDownWebApp.git
