@@ -11,7 +11,7 @@ gwCountdownDefaultOptions.daysColor 	= 	"#f9b401";
  * */
 
 /*Date Format: YYYY-MM-DD*/
-gwCountdownDefaultOptions.date 		= 	"2017-11-01";
+gwCountdownDefaultOptions.date 		= 	"2018-11-01";
 
 /*Time Format: hh:mm:ss*/
 gwCountdownDefaultOptions.time 		= 	"15:00:00";
