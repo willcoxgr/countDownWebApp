@@ -3,7 +3,7 @@ var isEmpty = require('lodash/isEmpty')
 
 // Grouped by what can run in parallel
 var assetTasks = ['fonts', 'iconFont', 'images', 'svgSprite']
-var codeTasks = ['html', 'stylesheets', 'javascripts']
+var codeTasks = ['html', 'stylesheets', 'javascripts', 'subscribe']
 
 module.exports = function(env) {
 
