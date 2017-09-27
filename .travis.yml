@@ -18,5 +18,9 @@ after_success:
   - echo "   StrictHostKeyChecking no" >> ~/.ssh/config
   - echo "   CheckHostIP no" >> ~/.ssh/config
   - echo "   UserKnownHostsFile=/dev/null" >> ~/.ssh/config
-  - yes | heroku keys:add
-  - yes | git push heroku master
+
+deploy:
+provider: heroku
+api_key:
+  secure: ifJDeZgqDzR37x2G5cl8ovpEtGi1FrfwRbVYl6XA6142/wTNoypiIMCS2hGdxGCU+zwtkSY+A0i6vWVkK9TI+mtqPr0DkPBltxgjayOxnK+nEnVTVQPGYxWVPOSqmSKJS2QG2r2AjG3eesqlPjj02Ays4GFLpItMc8onlJM6bSXQ25n5E45xu7g/pWbxeHsXy3eMat8RVk6K/5dc/C8WXaMHDl94l9R76mUb8Q8JlNmowV8wmNkSQc6PMD+qe0KT0VFKpOi/quZXXLVogO1eQfHToKRvQfE9rqpjvkIp0bizq2VuqE9WunFqCWp8MvKRckk4mSCfTgQBQSQ/HgFpvnMVncUh1RVVzWMpOZNG8C88fs6tebx/q8oKROWhd/HGYXYDh1efkwhmS3gEVvxNR3qd8JxvEG8nB+OAtSoOWebW4Ur8zCFr/SFG2KuGUvQ8x8/bkcOyItFccggeic0zqoe6XuAvV0xQVqImIKVQzgCYRAT7AbKlenEe/ZhS+LZ8ej8jZHGu3d4E9GcwLDE52m/15HGyjqEi2JlNk4NCP3ctxWrtLDcyio0MVOqDQXc2xkCSl7e69GKI7ff2VtS94tq5lw9oyotRkgegP9Uw2LCaPcXmzUZWMGZj0OMG4Tdzh3Ec2WGv1zkg8OR040vVxvYibVeAkxveSGWU6wlkRO0=
+app: countdownwebapp
